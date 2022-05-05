@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CodeYard task</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="heroImg">
+    <div class="hero">
+      <nav class="navBar">
+        <div class="navBar__name navBarItem">Traunship</div>
+        <div class="navBarWrapper">
+          <div class="navBar__links navBarItem">
+            <a href="#">Features</a>
+            <a href="#productlId">Products</a>
+            <a href="#testimonialId">Testimonial</a>
+            <a href="#footerId">Contact</a>
+          </div>
+          <div id="mobileNav" onclick="showMenu()">&#9776;</div>
+          <div id="toggleMenu" class="mobilNavLinks --hidden">
+            <a href="#">Features</a>
+            <a href="#productlId">Products</a>
+            <a href="#testimonialId">Testimonial</a>
+            <a href="#footerId">Contact</a>
+          </div>
+        </div>
+        <div class="navBar__demo navBarItem">
+          <div class="demoButton">Try a demo</div>
+        </div>
+      </nav>
+      <div class="intro">
+        <div class="playButton">
+          <img src="./img/play_icon.svg" alt="Play Button">
+        </div>
+        <h1 class="intro__title">Best place to buy rocket</h1>
+        <p class="intro__text">Quis ipsum pellentesque nulla nulla elementum sagittis dictum</p>
+        <div class="introButtons">
+          <button class="introButtons__demoButton">Try a demo</button>
+          <button class="introButtons__buyButton">Buy now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="productlId" class="products">
+    <div class="productHeader">
+      <h2 class="productHeader__title">Features you can’s avoid</h2>
+      <p class="productHeader__text">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus
+        pellentesque mi massa. Nmet nullam sed
+        habitasse dignissim viverra congue nisl
+      </p>
+    </div>
+    <div class="productsCardContainer">
+      <div class="productCard">
+        <img src="./img/Rocket1.svg" alt="Rocket" class="productCard__img" />
+        <h3 class="productCard__title">Solid Fuel</h3>
+        <p class="productCard__text">Eget mattis viverra in lorem dictum
+          consequat etiam non pellentesque
+          mauris diamprice ore
+        </p>
+      </div>
+      <div class="productCard">
+        <img src="./img/Rocket2.svg" alt="Rocket" class="productCard__img" />
+        <h3 class="productCard__title">Liquid Fuel</h3>
+        <p class="productCard__text">Eget mattis viverra in lorem dictum
+          consequat etiam non pellentesque
+          mauris diamprice ore
+        </p>
+      </div>
+      <div class="productCard">
+        <img src="./img/Rocket3.svg" alt="Rocket" class="productCard__img" />
+        <h3 class="productCard__title">Ion Rocket</h3>
+        <p class="productCard__text">Eget mattis viverra in lorem dictum
+          consequat etiam non pellentesque
+          mauris diamprice ore
+        </p>
+      </div>
+      <div class="productCard">
+        <img src="./img/Rocket4.svg" alt="Rocket" class="productCard__img" />
+        <h3 class="productCard__title">Plasma Rocket</h3>
+        <p class="productCard__text">Eget mattis viverra in lorem dictum
+          consequat etiam non pellentesque
+          mauris diamprice ore
+        </p>
+      </div>
+      <div class="productCard">
+        <img src="./img/Rocket5.svg" alt="Rocket" class="productCard__img" />
+        <h3 class="productCard__title">Supersonic Rocket</h3>
+        <p class="productCard__text">Eget mattis viverra in lorem dictum
+          consequat etiam non pellentesque
+          mauris diamprice ore
+        </p>
+      </div>
+      <div class="productCard">
+        <img src="./img/Rocket6.svg" alt="Rocket" class="productCard__img" />
+        <h3 class="productCard__title">Ultra Rocket</h3>
+        <p class="productCard__text">Eget mattis viverra in lorem dictum
+          consequat etiam non pellentesque
+          mauris diamprice ore
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="testimonialId" class="testimonial">
+    <div class="testimonial__img">
+      <div class="testimonial__shape">
+      </div>
+    </div>
+    <div class="testimonialContainer">
+      <h2 class="testimonial__title">“Right time to invest into space”</h2>
+      <p class="testimonial__text">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris
+        pretium mollis ac id mauris eget.</p>
+      <div class="testimonial__userBox">
+        <img class="userBox__img" src="./img/avatar.png" alt="user">
+        <p class="userBox__text">Milon Ask <br>
+          CEO, Blackhole
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio">
+    <div class="personCard">
+      <img class="person__img" src="./img/person1.png" alt="Person">
+      <p class="person__text">I brought a rocket for my son in his 14th birthday. I liked their service. Love it.</p>
+      <p class="person__name">Wade Warren</p>
+      <p class="person__job">Astronaut</p>
+    </div>
+    <div class="personCard">
+      <img class="person__img" src="./img/person2.png" alt="Person">
+      <p class="person__text">They delivered my custom rocket as fast as the rocket itself. Mindblowing.</p>
+      <p class="person__name">Esther Howard</p>
+      <p class="person__job">Appolo 11 Pilot</p>
+    </div>
+    <div class="personCard">
+      <img class="person__img" src="./img/person3.png" alt="Person">
+      <p class="person__text">I found awesome customer service from them. They fixed my rocket within a day.</p>
+      <p class="person__name">Cameron Williamson</p>
+      <p class="person__job">NASA Manager</p>
+    </div>
+  </div>
+  <div class="footerWrapper">
+    <div id="footerId" class="footer">
+      <div class="footer__directory">
+        <div class="directoryColumn">
+          <h3 class="contact__name">Traunship</h3>
+          <p class="contact__text">4517 Washington Ave. Manchester,<br>
+            Kentucky 39495
+          </p>
+          <p class="contact__text">(684) 555-0102</p>
+          <p class="contact__text">(603) 555-0123</p>
+        </div>
+        <div class="directoryColumn">
+          <h4 class="siteLinks__name">Quick Links</h4>
+          <ul class="siteLinks__list">
+            <li><a href="#">Features</a></li>
+            <li><a href="#productlId">Products</a></li>
+            <li><a href="#testimonialId">Testimonial</a></li>
+            <li><a href="#footerId">Contact</a></li>
+          </ul>
+        </div>
+        <div class="directoryColumn">
+          <h4 class="newsLetter__name">Newsletter</h4>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <div class="footerBottom__legal">
+          <p>© 2021 Traunship. All right reserved.</p>
+        </div>
+        <div class="footerBottom__links">
+          <img class="footerBottom__links__icon" src="./img/facebook_icon.svg" alt="Logo">
+          <img class="footerBottom__links__icon" src="./img/twitter_icon.svg" alt="Logo">
+          <img class="footerBottom__links__icon" src="./img/instagram_icon.svg" alt="Logo">
+          <img class="footerBottom__links__icon" src="./img/linkedIn_icon.svg" alt="Logo">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
